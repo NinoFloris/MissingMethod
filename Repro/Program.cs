@@ -2,11 +2,5 @@
 
 using ReferenceInit;
 
-try
-{
-    new Class1();
-}
-catch (Exception ex)
-{
-    Console.WriteLine(ex.Message);
-}
+new Class1();
+Console.WriteLine("Success");
